@@ -15,9 +15,6 @@ services:
   
   mongo:
     image: mongo
-    environment:
-      - MONGO_INITDB_ROOT_USERNAME=samjeev
-      - MONGO_INITDB_ROOT_PASSWORD=password
     volumes:
       - mongo-db:/data/db
 
